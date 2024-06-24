@@ -36,7 +36,7 @@ public class DisenchantmentFuelManager extends SingleItemFuelManager {
         return INSTANCE;
     }
 
-    private DisenchantmentFuelManager() {
+    protected DisenchantmentFuelManager() {
 
         super(DEFAULT_ENERGY);
     }

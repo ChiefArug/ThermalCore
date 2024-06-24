@@ -36,7 +36,7 @@ public class GourmandFuelManager extends SingleItemFuelManager {
         return INSTANCE;
     }
 
-    private GourmandFuelManager() {
+    protected GourmandFuelManager() {
 
         super(DEFAULT_ENERGY);
     }

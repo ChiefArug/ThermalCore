@@ -17,7 +17,7 @@ public class CompressionFuelManager extends SingleFluidFuelManager {
         return INSTANCE;
     }
 
-    private CompressionFuelManager() {
+    protected CompressionFuelManager() {
 
         super(DEFAULT_ENERGY);
     }

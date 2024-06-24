@@ -17,7 +17,7 @@ public class NumismaticFuelManager extends SingleItemFuelManager {
         return INSTANCE;
     }
 
-    private NumismaticFuelManager() {
+    protected NumismaticFuelManager() {
 
         super(DEFAULT_ENERGY);
     }

@@ -17,7 +17,7 @@ public class MagmaticFuelManager extends SingleFluidFuelManager {
         return INSTANCE;
     }
 
-    private MagmaticFuelManager() {
+    protected MagmaticFuelManager() {
 
         super(DEFAULT_ENERGY);
     }

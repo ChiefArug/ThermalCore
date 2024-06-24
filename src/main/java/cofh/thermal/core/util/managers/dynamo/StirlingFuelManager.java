@@ -34,7 +34,7 @@ public class StirlingFuelManager extends SingleItemFuelManager {
         return INSTANCE;
     }
 
-    private StirlingFuelManager() {
+    protected StirlingFuelManager() {
 
         super(DEFAULT_ENERGY);
     }

@@ -17,7 +17,7 @@ public class LapidaryFuelManager extends SingleItemFuelManager {
         return INSTANCE;
     }
 
-    private LapidaryFuelManager() {
+    protected LapidaryFuelManager() {
 
         super(DEFAULT_ENERGY);
     }

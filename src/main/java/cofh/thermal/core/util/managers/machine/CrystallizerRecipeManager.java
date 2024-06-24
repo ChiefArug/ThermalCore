@@ -41,7 +41,7 @@ public class CrystallizerRecipeManager extends AbstractManager implements IRecip
         return INSTANCE;
     }
 
-    private CrystallizerRecipeManager() {
+    protected CrystallizerRecipeManager() {
 
         super(DEFAULT_ENERGY);
         this.maxInputItems = 2;

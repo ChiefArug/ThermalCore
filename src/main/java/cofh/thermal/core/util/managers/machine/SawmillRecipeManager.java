@@ -33,7 +33,7 @@ public class SawmillRecipeManager extends SingleItemRecipeManager {
         return INSTANCE;
     }
 
-    private SawmillRecipeManager() {
+    protected SawmillRecipeManager() {
 
         super(DEFAULT_ENERGY, 4, 0);
     }

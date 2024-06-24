@@ -28,7 +28,7 @@ public class InsolatorRecipeManager extends SingleItemRecipeManager.Catalyzed {
         return INSTANCE;
     }
 
-    private InsolatorRecipeManager() {
+    protected InsolatorRecipeManager() {
 
         super(DEFAULT_ENERGY, 4, 0);
     }

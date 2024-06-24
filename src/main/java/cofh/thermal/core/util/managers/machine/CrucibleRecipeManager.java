@@ -15,7 +15,7 @@ public class CrucibleRecipeManager extends SingleItemRecipeManager {
         return INSTANCE;
     }
 
-    private CrucibleRecipeManager() {
+    protected CrucibleRecipeManager() {
 
         super(DEFAULT_ENERGY, 0, 1);
         this.basePower = 80;

@@ -37,7 +37,7 @@ public class PulverizerRecipeManager extends SingleItemRecipeManager.Catalyzed {
         return INSTANCE;
     }
 
-    private PulverizerRecipeManager() {
+    protected PulverizerRecipeManager() {
 
         super(DEFAULT_ENERGY, 4, 0);
     }

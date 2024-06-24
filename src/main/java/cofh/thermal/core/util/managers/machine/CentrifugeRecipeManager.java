@@ -15,7 +15,7 @@ public class CentrifugeRecipeManager extends SingleItemRecipeManager {
         return INSTANCE;
     }
 
-    private CentrifugeRecipeManager() {
+    protected CentrifugeRecipeManager() {
 
         super(DEFAULT_ENERGY, 4, 1);
     }

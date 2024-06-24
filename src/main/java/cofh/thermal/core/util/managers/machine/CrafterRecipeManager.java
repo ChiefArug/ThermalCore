@@ -24,7 +24,7 @@ public class CrafterRecipeManager extends AbstractManager implements IManager {
         return INSTANCE;
     }
 
-    private CrafterRecipeManager() {
+    protected CrafterRecipeManager() {
 
         super(DEFAULT_ENERGY);
     }

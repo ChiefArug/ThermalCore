@@ -40,7 +40,7 @@ public class ChillerRecipeManager extends AbstractManager implements IRecipeMana
         return INSTANCE;
     }
 
-    private ChillerRecipeManager() {
+    protected ChillerRecipeManager() {
 
         super(DEFAULT_ENERGY);
         this.maxOutputItems = 1;

@@ -38,7 +38,7 @@ public class PressRecipeManager extends AbstractManager implements IRecipeManage
         return INSTANCE;
     }
 
-    private PressRecipeManager() {
+    protected PressRecipeManager() {
 
         super(DEFAULT_ENERGY);
         this.maxOutputItems = 1;

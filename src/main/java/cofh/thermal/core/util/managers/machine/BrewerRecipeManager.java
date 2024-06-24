@@ -53,7 +53,7 @@ public class BrewerRecipeManager extends AbstractManager implements IRecipeManag
         return INSTANCE;
     }
 
-    private BrewerRecipeManager() {
+    protected BrewerRecipeManager() {
 
         super(DEFAULT_ENERGY);
         this.maxOutputItems = 0;

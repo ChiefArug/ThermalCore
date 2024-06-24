@@ -15,7 +15,7 @@ public class PyrolyzerRecipeManager extends SingleItemRecipeManager {
         return INSTANCE;
     }
 
-    private PyrolyzerRecipeManager() {
+    protected PyrolyzerRecipeManager() {
 
         super(DEFAULT_ENERGY, 4, 1);
         this.basePower = 5;

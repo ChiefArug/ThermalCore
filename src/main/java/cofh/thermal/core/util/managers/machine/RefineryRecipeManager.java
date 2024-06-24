@@ -37,7 +37,7 @@ public class RefineryRecipeManager extends AbstractManager implements IRecipeMan
         return INSTANCE;
     }
 
-    private RefineryRecipeManager() {
+    protected RefineryRecipeManager() {
 
         super(DEFAULT_ENERGY);
         this.maxOutputItems = 1;

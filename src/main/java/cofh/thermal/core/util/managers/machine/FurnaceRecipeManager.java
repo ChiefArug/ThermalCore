@@ -29,7 +29,7 @@ public class FurnaceRecipeManager extends SingleItemRecipeManager {
         return INSTANCE;
     }
 
-    private FurnaceRecipeManager() {
+    protected FurnaceRecipeManager() {
 
         super(DEFAULT_ENERGY, 1, 0);
     }

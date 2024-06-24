@@ -52,7 +52,7 @@ public class SmelterRecipeManager extends AbstractManager implements IRecipeMana
         return INSTANCE;
     }
 
-    private SmelterRecipeManager() {
+    protected SmelterRecipeManager() {
 
         super(DEFAULT_ENERGY);
         this.maxInputItems = 3;

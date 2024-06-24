@@ -65,7 +65,7 @@ public class BottlerRecipeManager extends AbstractManager implements IRecipeMana
         return INSTANCE;
     }
 
-    private BottlerRecipeManager() {
+    protected BottlerRecipeManager() {
 
         super(DEFAULT_ENERGY);
         this.maxOutputItems = 1;
